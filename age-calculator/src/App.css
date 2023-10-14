@@ -1,0 +1,56 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(#315d6e, #d9bbe1);
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* center horizontally*/
+  align-items: center; /*center vertically*/
+  margin: 0;
+}
+.age_calculator {
+  background-color: #9db3ed;
+  height: 315px;
+  width: 450px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px -1px 20px rgb(14, 53, 110);
+  text-align: center;
+  align-items: center;
+  display: flex; /*center its content horizontally and vertically*/
+  flex-direction: column;
+}
+.age_calculator h1 {
+  font-size: 40px;
+  margin: 20px;
+  color: #fff;
+  margin-bottom: 3px;
+}
+.age_calculator h3 {
+  font-size: 15px;
+  color: #eeeeef;
+}
+.age_calculator input[type="date"] {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px rgb(3, 24, 55);
+  width: 60%;
+  padding: 5px;
+  margin-bottom: 15px;
+  display: block; /*behave like block level element*/
+  font-size: 15px;
+}
+.age_calculator button {
+  background-color: #08153a;
+  color: #fff;
+  box-shadow: 1px 1px 5px rgb(4, 39, 92);
+  border: none;
+  padding: 10px 20px; /*y x*/
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.age_calculator .result {
+  margin-top: 25px;
+  font-size: 20px;
+}
